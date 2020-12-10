@@ -1,0 +1,981 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="shortcut icon" href="../assets/logo/vspipe-logo-128.png">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-6.1.0">
+    
+    
+      
+        <title>Reference - VSPipe</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.bc7e593a.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab28b872.min.css">
+        
+          
+          
+          <meta name="theme-color" content="#757575">
+        
+      
+    
+    
+    
+      
+    
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/custom.css">
+    
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="grey" data-md-color-accent="indigo">
+      
+  
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#reference" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid" aria-label="Header">
+    <a href=".." title="VSPipe" class="md-header-nav__button md-logo" aria-label="VSPipe">
+      
+  <img src="../assets/logo/vspipe-logo-128.png" alt="logo">
+
+    </a>
+    <label class="md-header-nav__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header-nav__title" data-md-component="header-title">
+      
+        <div class="md-header-nav__ellipsis">
+          <span class="md-header-nav__topic md-ellipsis">
+            VSPipe
+          </span>
+          <span class="md-header-nav__topic md-ellipsis">
+            
+              Reference
+            
+          </span>
+        </div>
+      
+    </div>
+    
+      <label class="md-header-nav__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active">
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" data-md-component="search-reset" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="VSPipe" class="md-nav__button md-logo" aria-label="VSPipe">
+      
+  <img src="../assets/logo/vspipe-logo-128.png" alt="logo">
+
+    </a>
+    VSPipe
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href=".." class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" checked>
+    
+    <label class="md-nav__link" for="nav-2">
+      Admin
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Admin" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        <span class="md-nav__icon md-icon"></span>
+        Admin
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-1" type="checkbox" id="nav-2-1" checked>
+    
+    <label class="md-nav__link" for="nav-2-1">
+      Create New Project
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Create New Project" data-md-level="2">
+      <label class="md-nav__title" for="nav-2-1">
+        <span class="md-nav__icon md-icon"></span>
+        Create New Project
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../admin_create_new_project/" class="md-nav__link">
+      Overview
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Reference
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+    
+    <a href="./" class="md-nav__link md-nav__link--active">
+      Reference
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#database" class="md-nav__link">
+    Database
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#project-inventory-api" class="md-nav__link">
+    Project Inventory API
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#project-configuration-api" class="md-nav__link">
+    Project Configuration API
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#project-executable-api" class="md-nav__link">
+    Project Executable API
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
+    
+    <label class="md-nav__link" for="nav-3">
+      Artist
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Artist" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        <span class="md-nav__icon md-icon"></span>
+        Artist
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3-1" type="checkbox" id="nav-3-1">
+    
+    <label class="md-nav__link" for="nav-3-1">
+      Workflow
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Workflow" data-md-level="2">
+      <label class="md-nav__title" for="nav-3-1">
+        <span class="md-nav__icon md-icon"></span>
+        Workflow
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../artist_getting_started/" class="md-nav__link">
+      Overview
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../artist_launcher/" class="md-nav__link">
+      Launcher
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../artist_tools/" class="md-nav__link">
+      Tools
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3-2" type="checkbox" id="nav-3-2">
+    
+    <label class="md-nav__link" for="nav-3-2">
+      Integrations
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Integrations" data-md-level="2">
+      <label class="md-nav__title" for="nav-3-2">
+        <span class="md-nav__icon md-icon"></span>
+        Integrations
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../artist_hosts_maya/" class="md-nav__link">
+      Maya
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../artist_hosts_houdini/" class="md-nav__link">
+      Houdini
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../artist_hosts_aftereffects/" class="md-nav__link">
+      After Effects
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../artist_hosts_photoshop/" class="md-nav__link">
+      Photoshop
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../artist_hosts_nuke/" class="md-nav__link">
+      Nuke
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3-3" type="checkbox" id="nav-3-3">
+    
+    <label class="md-nav__link" for="nav-3-3">
+      Utilities
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Utilities" data-md-level="2">
+      <label class="md-nav__title" for="nav-3-3">
+        <span class="md-nav__icon md-icon"></span>
+        Utilities
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../utilities_overview.md" class="md-nav__link">
+      Overview
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../release_notes.md" class="md-nav__link">
+      Release Notes
+    </a>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#database" class="md-nav__link">
+    Database
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#project-inventory-api" class="md-nav__link">
+    Project Inventory API
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#project-configuration-api" class="md-nav__link">
+    Project Configuration API
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#project-executable-api" class="md-nav__link">
+    Project Executable API
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="reference">Reference</h1>
+<h2 id="database">Database</h2>
+<p>Avalon stores data in two separate locations, on disk and in a database. The separation is made due to performance and search capabilities offered by databases.</p>
+<p>MongoDB was chosen due to the inherent simplicity and similarity to Python's built-in dictionary type, and performance great enough to enable graphical user interfaces to be built without asynchronousity in mind.</p>
+<p>Inside of MongoDB, data is stored as Collections containing many Documents. In Avalon, each Collection represents a project and documents make up the <a href="reference/#object-model">Object Model</a>.</p>
+<ul>
+<li>Asset</li>
+<li>Subset</li>
+<li>Version</li>
+<li>Representation</li>
+</ul>
+<p>These form a hierarchy, where each contain the latter. Assets make up the top-level object within a project, and can represent anything from characters, shots to levels and more.</p>
+<table>
+<thead>
+<tr>
+<th align="left">Asset</th>
+<th align="left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Hulk</td>
+<td align="left">A bulky fellow</td>
+</tr>
+<tr>
+<td align="left">Bruce</td>
+<td align="left">The hero of the film</td>
+</tr>
+<tr>
+<td align="left">1000</td>
+<td align="left">First shot</td>
+</tr>
+<tr>
+<td align="left">1200</td>
+<td align="left">Second shot</td>
+</tr>
+</tbody>
+</table>
+<p>Subsets is the asset broken down into smaller sets of information, such as a rig or a model.</p>
+<table>
+<thead>
+<tr>
+<th align="left">Subset</th>
+<th align="left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">model</td>
+<td align="left">Hulk's model</td>
+</tr>
+<tr>
+<td align="left">rig</td>
+<td align="left">Hulk's rig</td>
+</tr>
+<tr>
+<td align="left">lookdev</td>
+<td align="left">Hulk's look</td>
+</tr>
+<tr>
+<td align="left">animation</td>
+<td align="left">Hulk's point cached geometry</td>
+</tr>
+</tbody>
+</table>
+<p>A subset must have a least one Version, which is typically immutable.</p>
+<table>
+<thead>
+<tr>
+<th align="left">Version</th>
+<th align="left">Comment</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">v001</td>
+<td align="left">Initial version</td>
+</tr>
+<tr>
+<td align="left">v002</td>
+<td align="left">Fixed whole in mesh</td>
+</tr>
+<tr>
+<td align="left">v003</td>
+<td align="left">Increased the size of pecs</td>
+</tr>
+</tbody>
+</table>
+<p>Finally, in each version there is at least one Representation; typically a file or sequence of files.</p>
+<table>
+<thead>
+<tr>
+<th align="left">Representation</th>
+<th align="left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">ma</td>
+<td align="left">Maya rig</td>
+</tr>
+<tr>
+<td align="left">mov</td>
+<td align="left">Turntable</td>
+</tr>
+<tr>
+<td align="left">abc</td>
+<td align="left">Still frame of mesh used in rig</td>
+</tr>
+</tbody>
+</table>
+<p>Read more about the kinds of objects in <a href="#schemas">Schemas</a> below.</p>
+<p><br></p>
+<h2 id="project-inventory-api">Project Inventory API</h2>
+<p>The inventory contains all ASSETs of a project, including metadata.</p>
+<ul>
+<li><a href="http://fontawesome.io/icons/">Icon Database</a></li>
+</ul>
+<p><strong>.inventory.toml</strong></p>
+<div class="highlight"><pre><span></span><code><span class="c1"># Mandatory, do not touch</span>
+<span class="na">schema</span> <span class="o">=</span> <span class="s">&quot;avalon-core:inventory-1.0&quot;</span>
+
+<span class="c1"># Project metadata</span>
+<span class="na">label</span> <span class="o">=</span> <span class="s">&quot;The Hulk&quot;</span>
+<span class="na">fps</span> <span class="o">=</span> <span class="s">24</span>
+<span class="na">resolution_width</span> <span class="o">=</span> <span class="s">1920</span>
+<span class="na">resolution_height</span> <span class="o">=</span> <span class="s">1080</span>
+
+<span class="c1"># Available assets</span>
+<span class="k">[[assets]]</span>
+<span class="na">name</span> <span class="o">=</span> <span class="s">&quot;Batman&quot;</span>
+
+<span class="k">[[assets]]</span>
+<span class="na">name</span> <span class="o">=</span> <span class="s">&quot;Bruce&quot;</span>
+<span class="na">label</span> <span class="o">=</span> <span class="s">&quot;Bruce Wayne&quot;  # (Optional) Nicer name</span>
+<span class="na">group</span> <span class="o">=</span> <span class="s">&quot;Character&quot;  # (Optional) Visual grouping</span>
+<span class="na">icon</span> <span class="o">=</span> <span class="s">&quot;gear&quot;  # (Optional) Icon from FontAwesome</span>
+
+<span class="k">[[assets]]</span>
+<span class="na">name</span> <span class="o">=</span> <span class="s">&quot;Camera&quot;</span>
+
+<span class="c1"># Available shots</span>
+<span class="k">[[film]]</span>
+<span class="na">name</span> <span class="o">=</span> <span class="s">&quot;1000&quot;</span>
+<span class="na">edit_in</span> <span class="o">=</span> <span class="s">1000</span>
+<span class="na">edit_out</span> <span class="o">=</span> <span class="s">1202</span>
+
+<span class="k">[[film]]</span>
+<span class="na">name</span> <span class="o">=</span> <span class="s">&quot;1200&quot;</span>
+<span class="na">edit_in</span> <span class="o">=</span> <span class="s">1000  # Optional metadata per shot</span>
+<span class="na">edit_out</span> <span class="o">=</span> <span class="s">1143</span>
+</code></pre></div>
+<p>The above is an example of an "inventory". A complete snapshot of all available assts within a given project, along with optional metadata.</p>
+<p><br>
+<br></p>
+<h2 id="project-configuration-api">Project Configuration API</h2>
+<p>The project configuration contains the applications and tasks available within a given project, along with the template used to create directories.</p>
+<p><strong>.config.toml</strong></p>
+<div class="highlight"><pre><span></span><code><span class="c1"># Mandatory, do not touch</span>
+<span class="na">schema</span> <span class="o">=</span> <span class="s">&quot;avalon-core:config-1.0&quot;</span>
+
+<span class="c1"># Available tasks to choose from.</span>
+<span class="k">[[tasks]]</span>
+<span class="na">name</span> <span class="o">=</span> <span class="s">&quot;modeling&quot;</span>
+<span class="na">label</span> <span class="o">=</span> <span class="s">&quot;Character Modeling&quot;</span>
+<span class="na">icon</span> <span class="o">=</span> <span class="s">&quot;video-camera&quot;</span>
+
+<span class="k">[[tasks]]</span>
+<span class="na">name</span> <span class="o">=</span> <span class="s">&quot;animation&quot;</span>
+
+<span class="c1"># Available applications to choose from, the name references</span>
+<span class="c1"># the executable API (see below)</span>
+<span class="k">[[apps]]</span>
+<span class="na">name</span> <span class="o">=</span> <span class="s">&quot;maya2016&quot;</span>
+<span class="na">label</span> <span class="o">=</span> <span class="s">&quot;Autodesk Maya 2016&quot;</span>
+
+<span class="k">[[apps]]</span>
+<span class="na">name</span> <span class="o">=</span> <span class="s">&quot;python&quot;</span>
+<span class="na">label</span> <span class="o">=</span> <span class="s">&quot;Python 3.6&quot;</span>
+<span class="na">args</span> <span class="o">=</span> <span class="s">[&quot;-u&quot;, &quot;-c&quot;, &quot;print(&#39;Something nice&#39;)&quot;]</span>
+
+<span class="c1"># Directory layouts for this project.</span>
+<span class="k">[template]</span>
+<span class="na">work</span> <span class="o">=</span> <span class="s">&quot;{root}/{project}/{silo}/{asset}/work/{task}/{user}/{app}&quot;</span>
+<span class="na">publish</span> <span class="o">=</span> <span class="s">&quot;{root}/{project}/{silo}/{asset}/publish/{subset}/v{version:0&gt;3}/{subset}.{representation}&quot;</span>
+</code></pre></div>
+<p>The directory layout have the following members available.</p>
+<table>
+<thead>
+<tr>
+<th align="left">Member</th>
+<th align="left">Type</th>
+<th align="left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left"><code>{app}</code></td>
+<td align="left"><code>str</code></td>
+<td align="left">The current application directory name, defined in Executable API</td>
+</tr>
+<tr>
+<td align="left"><code>{task}</code></td>
+<td align="left"><code>str</code></td>
+<td align="left">Name of the current task</td>
+</tr>
+<tr>
+<td align="left"><code>{user}</code></td>
+<td align="left"><code>str</code></td>
+<td align="left">Currently logged on user (provided by <code>getpass.getuser()</code>)</td>
+</tr>
+<tr>
+<td align="left"><code>{root}</code></td>
+<td align="left"><code>str</code></td>
+<td align="left">Absolute path to root directory, e.g. <code>m:\f01_project</code></td>
+</tr>
+<tr>
+<td align="left"><code>{project}</code></td>
+<td align="left"><code>str</code></td>
+<td align="left">Name of current project</td>
+</tr>
+<tr>
+<td align="left"><code>{silo}</code></td>
+<td align="left"><code>str</code></td>
+<td align="left">Name of silo, e.g. <code>assets</code></td>
+</tr>
+<tr>
+<td align="left"><code>{asset}</code></td>
+<td align="left"><code>str</code></td>
+<td align="left">Name of asset, e.g. <code>Bruce</code></td>
+</tr>
+<tr>
+<td align="left"><code>{subset}</code></td>
+<td align="left"><code>str</code></td>
+<td align="left">Name of subset, e.g. <code>modelDefault</code></td>
+</tr>
+<tr>
+<td align="left"><code>{version}</code></td>
+<td align="left"><code>int</code></td>
+<td align="left">Number of version, e.g. <code>1</code></td>
+</tr>
+<tr>
+<td align="left"><code>{representation}</code></td>
+<td align="left"><code>str</code></td>
+<td align="left">Name of representation, e.g. <code>ma</code></td>
+</tr>
+</tbody>
+</table>
+<p><br>
+<br></p>
+<h2 id="project-executable-api">Project Executable API</h2>
+<p>Every executable must have an associated Application Definition file which looks like this.</p>
+<p><strong>maya2016.toml</strong></p>
+<div class="highlight"><pre><span></span><code><span class="c1"># Required header, do not touch.</span>
+<span class="na">schema</span> <span class="o">=</span> <span class="s">&quot;avalon-core:application-1.0&quot;</span>
+
+<span class="c1"># Name of the created directory, available in the</span>
+<span class="c1"># `template` of the Configuration API</span>
+<span class="na">application_dir</span> <span class="o">=</span> <span class="s">&quot;maya&quot;</span>
+
+<span class="c1"># These directories will be created under the</span>
+<span class="c1"># given application directory</span>
+<span class="na">default_dirs</span> <span class="o">=</span> <span class="s">[</span>
+<span class="s">    &quot;scenes&quot;,</span>
+<span class="s">    &quot;data&quot;,</span>
+<span class="s">    &quot;renderData/shaders&quot;,</span>
+<span class="s">    &quot;images&quot;</span>
+<span class="na">]</span>
+
+<span class="c1"># Name displayed in GUIs</span>
+<span class="na">label</span> <span class="o">=</span> <span class="s">&quot;Autodesk Maya 2016x64&quot;</span>
+
+<span class="c1"># Arguments passed to the executable on launch</span>
+<span class="na">arguments</span> <span class="o">=</span> <span class="s">[ &quot;-proj&quot;, &quot;{AVALON_WORKDIR}&quot;,]</span>
+
+<span class="c1"># Name of the executable on the local computer.</span>
+<span class="c1"># This name must be available via the users `PATH`.</span>
+<span class="c1"># That is, the user must be able to type this into</span>
+<span class="c1"># the terminal to launch said application.</span>
+<span class="na">executable</span> <span class="o">=</span> <span class="s">&quot;maya2016&quot;</span>
+<span class="na">description</span> <span class="o">=</span> <span class="s">&quot;&quot;</span>
+
+<span class="c1"># Files copied into the application directory on launch</span>
+<span class="k">[copy]</span>
+<span class="na">&quot;{AVALON_CORE}/res/workspace.mel&quot;</span> <span class="o">=</span> <span class="s">&quot;workspace.mel&quot;</span>
+
+<span class="c1"># The environment variables overrides any previously set</span>
+<span class="c1"># variables from the parent process.</span>
+<span class="k">[environment]</span>
+<span class="na">MAYA_DISABLE_CLIC_IPM</span> <span class="o">=</span> <span class="s">&quot;Yes&quot;  # Disable the AdSSO process</span>
+<span class="na">MAYA_DISABLE_CIP</span> <span class="o">=</span> <span class="s">&quot;Yes&quot;  # Shorten time to boot</span>
+<span class="na">MAYA_DISABLE_CER</span> <span class="o">=</span> <span class="s">&quot;Yes&quot;</span>
+<span class="na">PYTHONPATH</span> <span class="o">=</span> <span class="s">[</span>
+<span class="s">    &quot;{PYBLISH_MAYA}/pyblish_maya/pythonpath&quot;,</span>
+<span class="s">    &quot;{AVALON_CORE}/avalon/maya/pythonpath&quot;,</span>
+<span class="s">    &quot;{PYTHONPATH}&quot;</span>
+<span class="na">]</span>
+</code></pre></div>
+<p><br></p>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
+        
+          <a href="../admin_create_new_project/" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+            </div>
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Overview
+              </div>
+            </div>
+          </a>
+        
+        
+          <a href="../artist_getting_started/" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Overview
+              </div>
+            </div>
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+          <div class="md-footer-copyright__highlight">
+            Copyright &copy; 2020 Desmond
+          </div>
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../assets/javascripts/vendor.6a3d08fc.min.js"></script>
+      <script src="../assets/javascripts/bundle.71201edf.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}</script>
+      
+      <script>
+        app = initialize({
+          base: "..",
+          features: [],
+          search: Object.assign({
+            worker: "../assets/javascripts/worker/search.4ac00218.min.js"
+          }, typeof search !== "undefined" && search)
+        })
+      </script>
+      
+    
+  </body>
+</html>

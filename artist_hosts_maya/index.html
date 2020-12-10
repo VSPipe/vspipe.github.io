@@ -1,0 +1,1373 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="shortcut icon" href="../assets/logo/vspipe-logo-128.png">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-6.1.0">
+    
+    
+      
+        <title>Maya - VSPipe</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.bc7e593a.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab28b872.min.css">
+        
+          
+          
+          <meta name="theme-color" content="#757575">
+        
+      
+    
+    
+    
+      
+    
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/custom.css">
+    
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="grey" data-md-color-accent="indigo">
+      
+  
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#vspipe-global-tools" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid" aria-label="Header">
+    <a href=".." title="VSPipe" class="md-header-nav__button md-logo" aria-label="VSPipe">
+      
+  <img src="../assets/logo/vspipe-logo-128.png" alt="logo">
+
+    </a>
+    <label class="md-header-nav__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header-nav__title" data-md-component="header-title">
+      
+        <div class="md-header-nav__ellipsis">
+          <span class="md-header-nav__topic md-ellipsis">
+            VSPipe
+          </span>
+          <span class="md-header-nav__topic md-ellipsis">
+            
+              Maya
+            
+          </span>
+        </div>
+      
+    </div>
+    
+      <label class="md-header-nav__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active">
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" data-md-component="search-reset" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="VSPipe" class="md-nav__button md-logo" aria-label="VSPipe">
+      
+  <img src="../assets/logo/vspipe-logo-128.png" alt="logo">
+
+    </a>
+    VSPipe
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href=".." class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
+    
+    <label class="md-nav__link" for="nav-2">
+      Admin
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Admin" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        <span class="md-nav__icon md-icon"></span>
+        Admin
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-1" type="checkbox" id="nav-2-1">
+    
+    <label class="md-nav__link" for="nav-2-1">
+      Create New Project
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Create New Project" data-md-level="2">
+      <label class="md-nav__title" for="nav-2-1">
+        <span class="md-nav__icon md-icon"></span>
+        Create New Project
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../admin_create_new_project/" class="md-nav__link">
+      Overview
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../admin_reference/" class="md-nav__link">
+      Reference
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3" checked>
+    
+    <label class="md-nav__link" for="nav-3">
+      Artist
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Artist" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        <span class="md-nav__icon md-icon"></span>
+        Artist
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3-1" type="checkbox" id="nav-3-1">
+    
+    <label class="md-nav__link" for="nav-3-1">
+      Workflow
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Workflow" data-md-level="2">
+      <label class="md-nav__title" for="nav-3-1">
+        <span class="md-nav__icon md-icon"></span>
+        Workflow
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../artist_getting_started/" class="md-nav__link">
+      Overview
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../artist_launcher/" class="md-nav__link">
+      Launcher
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../artist_tools/" class="md-nav__link">
+      Tools
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3-2" type="checkbox" id="nav-3-2" checked>
+    
+    <label class="md-nav__link" for="nav-3-2">
+      Integrations
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Integrations" data-md-level="2">
+      <label class="md-nav__title" for="nav-3-2">
+        <span class="md-nav__icon md-icon"></span>
+        Integrations
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Maya
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+    
+    <a href="./" class="md-nav__link md-nav__link--active">
+      Maya
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#vspipe-global-tools" class="md-nav__link">
+    VSPipe global tools
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#working-with-vspipe-in-maya" class="md-nav__link">
+    Working with VSPipe in Maya
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#publishing-models" class="md-nav__link">
+    Publishing models
+  </a>
+  
+    <nav class="md-nav" aria-label="Publishing models">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#intro" class="md-nav__link">
+    Intro
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#creating-instance" class="md-nav__link">
+    Creating instance
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#publishing-models_1" class="md-nav__link">
+    Publishing models
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fixing-problems" class="md-nav__link">
+    Fixing problems
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#look-development" class="md-nav__link">
+    Look development
+  </a>
+  
+    <nav class="md-nav" aria-label="Look development">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#loading-model" class="md-nav__link">
+    Loading model
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#creating-look" class="md-nav__link">
+    Creating look
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#publishing-look" class="md-nav__link">
+    Publishing look
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#loading-looks-into-models" class="md-nav__link">
+    Loading looks into models
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#setting-scene-data" class="md-nav__link">
+    Setting scene data
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#creating-rigs" class="md-nav__link">
+    Creating rigs
+  </a>
+  
+    <nav class="md-nav" aria-label="Creating rigs">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#preparing-rig-for-publish" class="md-nav__link">
+    Preparing rig for publish
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#publishing-rigs" class="md-nav__link">
+    Publishing rigs
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#loading-rigs" class="md-nav__link">
+    Loading rigs
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#point-maya-ascii" class="md-nav__link">
+    Point Maya Ascii
+  </a>
+  
+    <nav class="md-nav" aria-label="Point Maya Ascii">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#creating-a-ma" class="md-nav__link">
+    Creating a .ma
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#set-dressing-in-maya" class="md-nav__link">
+    Set dressing in Maya
+  </a>
+  
+    <nav class="md-nav" aria-label="Set dressing in Maya">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#publishing-set-dress-layout" class="md-nav__link">
+    Publishing Set dress / Layout
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#loading-set-dress-layout" class="md-nav__link">
+    Loading Set dress / Layout
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rendering" class="md-nav__link">
+    Rendering
+  </a>
+  
+    <nav class="md-nav" aria-label="Rendering">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#creating-basic-render-setup" class="md-nav__link">
+    Creating basic render setup
+  </a>
+  
+    <nav class="md-nav" aria-label="Creating basic render setup">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#preparing-scene" class="md-nav__link">
+    Preparing scene
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#submitting-renders-to-deadline" class="md-nav__link">
+    Submitting renders to Deadline
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../artist_hosts_houdini/" class="md-nav__link">
+      Houdini
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../artist_hosts_aftereffects/" class="md-nav__link">
+      After Effects
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../artist_hosts_photoshop/" class="md-nav__link">
+      Photoshop
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../artist_hosts_nuke/" class="md-nav__link">
+      Nuke
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3-3" type="checkbox" id="nav-3-3">
+    
+    <label class="md-nav__link" for="nav-3-3">
+      Utilities
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Utilities" data-md-level="2">
+      <label class="md-nav__title" for="nav-3-3">
+        <span class="md-nav__icon md-icon"></span>
+        Utilities
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../utilities_overview.md" class="md-nav__link">
+      Overview
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../release_notes.md" class="md-nav__link">
+      Release Notes
+    </a>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#vspipe-global-tools" class="md-nav__link">
+    VSPipe global tools
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#working-with-vspipe-in-maya" class="md-nav__link">
+    Working with VSPipe in Maya
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#publishing-models" class="md-nav__link">
+    Publishing models
+  </a>
+  
+    <nav class="md-nav" aria-label="Publishing models">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#intro" class="md-nav__link">
+    Intro
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#creating-instance" class="md-nav__link">
+    Creating instance
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#publishing-models_1" class="md-nav__link">
+    Publishing models
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fixing-problems" class="md-nav__link">
+    Fixing problems
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#look-development" class="md-nav__link">
+    Look development
+  </a>
+  
+    <nav class="md-nav" aria-label="Look development">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#loading-model" class="md-nav__link">
+    Loading model
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#creating-look" class="md-nav__link">
+    Creating look
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#publishing-look" class="md-nav__link">
+    Publishing look
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#loading-looks-into-models" class="md-nav__link">
+    Loading looks into models
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#setting-scene-data" class="md-nav__link">
+    Setting scene data
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#creating-rigs" class="md-nav__link">
+    Creating rigs
+  </a>
+  
+    <nav class="md-nav" aria-label="Creating rigs">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#preparing-rig-for-publish" class="md-nav__link">
+    Preparing rig for publish
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#publishing-rigs" class="md-nav__link">
+    Publishing rigs
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#loading-rigs" class="md-nav__link">
+    Loading rigs
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#point-maya-ascii" class="md-nav__link">
+    Point Maya Ascii
+  </a>
+  
+    <nav class="md-nav" aria-label="Point Maya Ascii">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#creating-a-ma" class="md-nav__link">
+    Creating a .ma
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#set-dressing-in-maya" class="md-nav__link">
+    Set dressing in Maya
+  </a>
+  
+    <nav class="md-nav" aria-label="Set dressing in Maya">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#publishing-set-dress-layout" class="md-nav__link">
+    Publishing Set dress / Layout
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#loading-set-dress-layout" class="md-nav__link">
+    Loading Set dress / Layout
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rendering" class="md-nav__link">
+    Rendering
+  </a>
+  
+    <nav class="md-nav" aria-label="Rendering">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#creating-basic-render-setup" class="md-nav__link">
+    Creating basic render setup
+  </a>
+  
+    <nav class="md-nav" aria-label="Creating basic render setup">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#preparing-scene" class="md-nav__link">
+    Preparing scene
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#submitting-renders-to-deadline" class="md-nav__link">
+    Submitting renders to Deadline
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                  <h1>Maya</h1>
+                
+                <h2 id="vspipe-global-tools">VSPipe global tools</h2>
+<ul>
+<li><a href="../artist_tools/#workfiles">Work Files</a></li>
+<li><a href="../artist_tools/#creator">Create</a></li>
+<li><a href="../artist_tools/#loader">Load</a></li>
+<li><a href="../artist_tools/#inventory">Manage (Inventory)</a></li>
+<li><a href="../artist_tools/#publisher">Publish</a></li>
+<li><a href="../artist_tools/#library-loader">Library Loader</a></li>
+<li><a href="../artist_tools/#look-manager">Look Manager</a></li>
+</ul>
+<h2 id="working-with-vspipe-in-maya">Working with VSPipe in Maya</h2>
+<h2 id="publishing-models">Publishing models</h2>
+<h3 id="intro">Intro</h3>
+<p>Publishing models in Maya is pretty straightforward. Create your model as you
+need. You need to adhere to specifications of your studio that can be different
+between studios and projects but by default your geometry has to be named properly.
+For example <code>sphere_GEO</code> or <code>cube1_GEO</code>. Geometry needs to have freezed transformations
+and must reside under one group, for example <code>model_GRP</code>.</p>
+<p><img alt="Model example" src="../assets/maya-model_hierarchy_example.jpg" /></p>
+<h3 id="creating-instance">Creating instance</h3>
+<p>Now create <strong>Model instance</strong> from it to let VSPipe know what in the scene you want to
+publish. Go <strong>VSPipe → Create... → Model</strong></p>
+<p><img alt="Model create instance" src="../assets/maya-model_create_instance.gif" /></p>
+<p><code>Asset</code> field is a name of asset you are working on - it should be already filled
+with correct name as you've started Maya or switched context to specific asset. You
+can edit that field to change it to different asset (but that one must already exists).</p>
+<p><code>Subset</code> field is a name you can decide on. It should describe what kind of data you
+have in the model. For example, you can name it <code>Proxy</code> to indicate that this is
+low resolution stuff. See <a href="artist_concepts#subset">Subset</a>.</p>
+<p>Read-only field just under it show final subset name, adding subset field to
+name of the group you have selected.</p>
+<p><code>Use selection</code> checkbox will use whatever you have selected in Outliner to be
+wrapped in Model instance. This is usually what you want. Click on <strong>Create</strong> button.</p>
+<p>You'll notice then after you've created new Model instance, there is new set
+in Outliner called after your subset, in our case it is <code>model_WIP</code>.</p>
+<p>And that's it, you have your first model ready to publish.</p>
+<p>Now save your scene (if you didn't do it already). You will notice that path
+in Save dialog is already set to place where scenes related to modeling task on
+your asset should reside. As in our case we are working on asset called
+<strong>Executioner</strong> and on task <strong>model</strong>, path relative to your project directory will be
+<code>project_XY/assets/CH/CH_Executioner/work/model</code>. Let's save our scene as <code>CH_Executioner_model_v001</code>.</p>
+<h3 id="publishing-models_1">Publishing models</h3>
+<p>Now let's publish it. Go <strong>VSPipe → Publish...</strong>. You will be presented with following window:</p>
+<p><img alt="Model publish" src="../assets/maya-model_pre_publish.jpg" /></p>
+<p>Note that content of this window can differs by your pipeline configuration.
+For more detail see <a href="artist_tools#publisher">Publisher</a>.</p>
+<p>Items in left column are instances you will be publishing. You can disable them
+by clicking on square next to them. Green square indicate they are ready for
+publishing, red means something went wrong either during collection phase
+or publishing phase. Empty one with gray text is disabled.</p>
+<p>See that in this case we are publishing from scene file <code>CH_Executioner_model_v001.mb</code> in
+Maya model named <code>model_WIP (CH_Executioner)</code>.</p>
+<p>Right column lists all tasks that are run during collection, validation,
+extraction and integration phase. White items are optional and you can disable
+them by clicking on them.</p>
+<p>Lets do dry-run on publishing to see if we pass all validators. Click on flask
+icon at the bottom. Validators are run. Ideally you will end up with everything
+green in validator section.</p>
+<p><img alt="Model publish" src="../assets/maya-model_publish.gif" /></p>
+<h3 id="fixing-problems">Fixing problems</h3>
+<p>To make things interesting, I intentionally forgot to name the group
+on <code>mesh_Head_Horns</code> as I know it will trigger validator to turn red.</p>
+<p><img alt="Failed Model Validator" src="../assets/maya-model_publish_error.jpg" /></p>
+<p>You can see our model is now marked red in left column and in right we have
+red box next to <code>Suffix Naming Conventions</code> validator.</p>
+<p>You can click on arrow next to it to see more details:</p>
+<p><img alt="Failed Model Validator details" src="../assets/maya-model_freeze_error_details.jpg" /></p>
+<p>From there you can see in <strong>Records</strong> entry that there is problem with <code>mesh_Head_Horns</code>.
+Some validators have option to fix problem for you or just select objects that
+cause trouble. This is the case with our failed validator.</p>
+<p><img alt="Failed Model Validator details" src="../assets/maya-model_select-invalid_publish.jpg" /></p>
+<p>In main overview you can notice little up arrow in a circle next to validator
+name. Right click on it and you can see menu item <code>select invalid</code>. This
+will select offending object in Maya.</p>
+<p>Fix is easy. Without closing Publisher window we just rename the group with <code>_GRP</code> suffix.
+Then we need to reset it to make it notice changes we've made. Click on arrow
+circle button at the bottom and it will reset Publisher to initial state. Run
+validators again (flask icon) to see if everything is ok.</p>
+<p>It should be now. Write some comment if you want and click play icon button
+when ready.</p>
+<p>Publish process will now take its course. Depending on data you are publishing
+it can take a while. You should end up with everything green and message
+<strong>Finished successfully ...</strong> You can now close publisher window.</p>
+<p>To check for yourself that model is published, open
+<a href="artist_tools#loader">Asset Loader</a> - <strong>VSPipe → Load...</strong>.
+There you should see your model, named <code>modelMain</code>.</p>
+<hr />
+<h2 id="look-development">Look development</h2>
+<p>Look development it helps you with versioning different
+kinds of shaders and easy switching between them.</p>
+<h3 id="loading-model">Loading model</h3>
+<p>In this example I have already published model of Executioner. To see how to publish
+model see <a href="artist_hosts_maya#publishing-models">Publishing Model</a>.</p>
+<p>First of lets start with empty scene. Now go <strong>VSPipe → Load...</strong></p>
+<p><img alt="Model loading" src="../assets/maya-model_loading.gif" /></p>
+<p>Here I am loading <code>model_WIP</code>, its version 1 for asset <strong>Executioner</strong>.  Just right-click
+on it and select <strong>Reference (ma)</strong>. This will load model into scene as ma.
+Now you can close Loader window.</p>
+<h3 id="creating-look">Creating look</h3>
+<p>Now you can create whatever look you want. Assign shaders, textures, etc. to model.
+In my case, I assigned simple Arnolds <em>aiSurfaceShader</em> and changed its color to red.</p>
+<p><img alt="Look Dev - Executioner" src="../assets/maya-look_dev-Executioner.jpg" /></p>
+<p>I am quite happy with it so I want to publish it as my first look.</p>
+<h3 id="publishing-look">Publishing look</h3>
+<p>Select your model in outliner and ho <strong>VSPipe → Create...</strong>. From there
+select <strong>Look</strong>. Make sure <code>use selection</code> checkbox is checked.
+Mine subset name is <code>Main</code>. This will create <em>Look instance</em> with a name <strong>look_WIP</strong>.</p>
+<p>Close <em>Creator</em> window.
+<img alt="Look Dev - Executioner" src="../assets/maya-look_dev_publish.gif" /></p>
+<p>Now save your scene, give it some sensible name. Next, go <strong>VSPipe → Publish</strong>.
+This process is almost identical as publishing models, only different <em>Validators</em>
+and other plugins will be used.</p>
+<p>This should be painless and cause no trouble so go ahead, click play icon button at
+the bottom and it will publish your look.</p>
+<div class="admonition note">
+<p class="admonition-title">publishing multiple looks</p>
+<p>You can reference same model into scene multiple times, change materials on every
+instance with what you need. Then on every model create <em>Look instance</em>. When
+publishing all those <em>Look instances</em> will be published at same time.</p>
+</div>
+<h3 id="loading-looks-into-models">Loading looks into models</h3>
+<p>Now lets see how look are applied. Start new empty scene, load your published
+model there as before (using <em>Reference (abc)</em>). If you didn't notice until now,
+there are few yellow icons in left shelf:</p>
+<p><img alt="Maya - shortcut icons" src="../assets/maya-shortcut_buttons.jpg" /></p>
+<p>Those are shortcuts for <a href="../artist_tools/#look-manager">Look Manager</a>, <a href="../artist_tools/#workfiles">Work Files</a>,
+<a href="../artist_tools/#loader">Load</a>, and <a href="../artist_tools/#inventory">Manage (Inventory)</a>.</p>
+<p>You are interested now in <strong>Look Manager</strong> - first item with brush icon. Select
+your Executioner model and open <strong>Look Manager</strong>.</p>
+<p><img alt="Maya - Look Manager" src="../assets/maya-look_dev-look_manager.gif" /></p>
+<p>This is <strong>Look Manager</strong> window. Yours would be empty until you click <strong>Get All Assets</strong>
+or <strong>Get Assets From Selection</strong>. You can use later to quick assign looks if you have
+multiple assets loaded in scene. Click on one of those button now.</p>
+<p>You should now see all assets and their subsets loaded in scene, and on right side
+all applicable published looks.</p>
+<p>Select you asset and on the right side right click on <code>_WIP</code> look. Apply it.</p>
+<p>You notice that Executioner model is now with texture, materials you've published are now applied
+to it.</p>
+<p>That way you can create looks as you want and version them using VSPipe.</p>
+<hr />
+<h2 id="setting-scene-data">Setting scene data</h2>
+<p>Maya settings concerning framerate, resolution and frame range are handled by
+VSPipe. If set correctly in config when initialize new project, Maya will validate you have correct fps on
+scene save and publishing offering way to fix it for you.</p>
+<p>For resolution and frame range, use <strong>VSPipe → Reset Frame Range</strong> and
+<strong>VSPipe → Reset Resolution</strong></p>
+<hr />
+<h2 id="creating-rigs">Creating rigs</h2>
+<p>Creating and publishing rigs with VSPipe follows similar workflow as with
+other data types. Create your rig and mark parts of your hierarchy in sets to
+help VSPipe validators and extractors to check it and publish it.</p>
+<h3 id="preparing-rig-for-publish">Preparing rig for publish</h3>
+<p>When creating rigs, it is recommended (and it is in fact enforced by validators)
+to separate bones or driving objects, their controllers and geometry so they are
+easily managed. Currently VSPipe doesn't allow to publish model at the same time as
+its rig so for demonstration purposes, I'll first create simple model for robotic
+arm, just made out of simple boxes and I'll publish it.</p>
+<p><img alt="Maya - Simple model for rigging" src="../assets/maya-rig_model_setup.jpg" /></p>
+<p>For more information about publishing models, see <a href="artist_hosts_maya#publishing-models">Publishing models</a>.</p>
+<p>When you've prepared your hierarchy, it's time to create <em>Rig instance</em>.
+Select your whole rig hierarchy and go <strong>VSPipe → Create...</strong>. Select <strong>Rig</strong>.
+Set is created in your scene to mark rig parts for export. Notice that it has
+two subsets - <code>controls_SET</code> and <code>out_SET</code>. Put your controls into <code>controls_SET</code>
+and geometry to <code>out_SET</code>. You should end up with something like this:</p>
+<p><img alt="Maya - Rig Hierarchy Example" src="../assets/maya-rig_publish_example.gif" /></p>
+<h3 id="publishing-rigs">Publishing rigs</h3>
+<p>Publishing rig is done in same way as publishing everything else. Save your scene
+and go <strong>VSPipe → Publish</strong>. When you run validation you'll mostly run at first into
+few issues. Although number of them will seem to be intimidating at first, you'll
+find out they are mostly minor things easily fixed.</p>
+<ul>
+<li>
+<p><strong>Non Duplicate Instance Members (ID)</strong> - This will most likely fail because when
+creating rigs, we usually duplicate few parts of it to reuse them. But duplication
+will duplicate also ID of original object and VSPipe needs every object to have
+unique ID. This is easily fixed by <strong>Repair</strong> action next to validator name. click
+on little up arrow on right side of validator name and select <strong>Repair</strong> form menu.</p>
+</li>
+<li>
+<p><strong>Joints Hidden</strong> - This is enforcing joints (bones) to be hidden for user as
+animator usually doesn't need to see them and they clutter his viewports. So
+well behaving rig should have them hidden. <strong>Repair</strong> action will help here also.</p>
+</li>
+<li>
+<p><strong>Rig Controllers</strong> will check if there are no transforms on unlocked attributes
+of controllers. This is needed because animator should have ease way to reset rig
+to it's default position. It also check that those attributes doesn't have any
+incoming connections from other parts of scene to ensure that published rig doesn't
+have any missing dependencies.</p>
+</li>
+</ul>
+<h3 id="loading-rigs">Loading rigs</h3>
+<p>You can load rig with <a href="../artist_tools/#loader">Loader</a>. Go <strong>VSPipe → Load...</strong>,
+select your rig, right click on it and <strong>Reference</strong> it.</p>
+<hr />
+<h2 id="point-maya-ascii">Point Maya Ascii</h2>
+<p>Workflow is very similar as other data types.</p>
+<h3 id="creating-a-ma">Creating a .ma</h3>
+<p>To create point cache just create whatever hierarchy you want and animate it.
+Select its root and Go <strong>VSPipe → Create...</strong> and select <strong>Maya Ascii</strong>.</p>
+<p>After that, publishing will create corresponding <strong>ma</strong> files.</p>
+<p>Example setup:</p>
+<p><img alt="Maya - MA Export Example" src="../assets/maya-ma_publish_example.gif" /></p>
+<hr />
+<h2 id="set-dressing-in-maya">Set dressing in Maya</h2>
+<p>Set dressing is term for easily populate complex scenes with individual parts.
+VSPipe allows to version and manage those sets.</p>
+<h3 id="publishing-set-dress-layout">Publishing Set dress / Layout</h3>
+<p>Working with Set dresses is very easy. Just load your assets into scene with
+<a href="../artist_tools/#loader">Loader</a> (<strong>VSPipe → Load...</strong>). Populate your scene as
+you wish, translate each piece to fit your need. When ready, select all imported
+stuff and go <strong>VSPipe → Create...</strong> and select <strong>Set Dress</strong> or <strong>Layout</strong>.
+This will create set containing your selection and marking it for publishing.</p>
+<p>:::note set dress vs layout
+Currently <em>set dress</em> and <em>layout</em> are functionally identical
+:::</p>
+<p>Now you can publish is with <strong>VSPipe → Publish</strong>.</p>
+<h3 id="loading-set-dress-layout">Loading Set dress / Layout</h3>
+<p>You can load Set dress / Layout using <a href="../artist_tools/#loader">Loader</a>
+(<strong>VSPipe → Load...</strong>). Select you layout or set dress, right click on it and
+select <strong>Reference Maya Ascii (ma)</strong>. This will populate your scene with all those
+models you've put into layout.</p>
+<hr />
+<h2 id="rendering">Rendering</h2>
+<p>The VSPipe supports rendering in Maya and is relatively renderer-agnostic so should work with most renderers. It has been tested and used with Redshift and Arnold (mtoa). We usually refer to this task as lighting.</p>
+<h3 id="creating-basic-render-setup">Creating basic render setup</h3>
+<p>If you want to submit your render to farm, just follow these simple steps.</p>
+<h4 id="preparing-scene">Preparing scene</h4>
+<p>Lets start with empty scene. First I'll pull in my favorite Buddha model.
+<strong>VSPipe → Load...</strong>, select model and right+click to pop up context menu. From
+there just click on <strong>Reference (abc)</strong>.</p>
+<p>Next, I want to be sure that I have same frame range as is set on shot I am working
+on. To do this just <strong>VSPipe → Reset Frame Range</strong>. This should set Maya timeline to same
+values as they are set on shot in <em>Ftrack</em> for example.</p>
+<p>I have my time set, so lets create some animation. We'll turn Buddha model around for
+50 frames (this is length of my timeline).</p>
+<p>Select model, go to first frame, key Y axis rotation, go to last frame, enter 360 to
+<strong>Channel Editor</strong> Y rotation, key it and its done. If you are not sure how to do it,
+you are probably reading wrong documentation.</p>
+<p>Now let set up lights, ground and camera. I am lazy so I create Arnolds Skydome light:
+<strong>Arnold → Lights → Skydome Light</strong>. As ground simple Plane will suffice and I'll set
+my perspective view as I like and create new camera from it (<code>CTRL+SHIFT+C</code>) and rename
+it from <code>persp1</code> to <code>mainCamera</code>.</p>
+<p>One last thing, I'll assign basic <em>aiSurfaceShader</em> to my Buddha and do some little
+tweaks on it.</p>
+<h4 id="submitting-renders-to-deadline">Submitting renders to Deadline</h4>
+<p>To submit your renders the first thing you'll need to do is create a "renderglobalsDefault" instance. This is what the pipeline uses to recognize it needs to process the renderlayers for submission at publish time.</p>
+<p>You can create it through:</p>
+<p>Lets create it. Go <strong>VSPipe → Create...</strong>. There select <strong>Render Globals</strong> from list.
+With the render globals created you can do VSPipe &gt; Publish.. to start submitting your scene.</p>
+<p>VSPipe will try to connect to render farm and fetch machine pool list.</p>
+<p>Creating <em>Render instance</em> will also set image prefix in render settings to VSPipe defaults based on
+renderer you use - for example if you render with Arnold, it is <code>maya/&lt;Scene&gt;/&lt;RenderLayer&gt;/&lt;RenderLayer&gt;_&lt;RenderPass&gt;</code>.</p>
+<p>There are few setting on <em>Render instance</em> <code>renderglobals_WIP</code> in <strong>Attributes Editor</strong>:</p>
+<p><img alt="Maya - Render attributes" src="../assets/maya-renderglobals.jpg" /></p>
+<p>Few options that needs explaining:</p>
+<ul>
+<li><code>Primary Pool</code> - here is list of pool fetched from server you can select from.</li>
+<li><code>Suspend publish Job</code> - job sent to farm will not start render automatically
+but is in <em>waiting</em> state.</li>
+<li><code>Extend Frames</code> - if checked it will add new frames to previous render, so you can
+extend previous image sequence.</li>
+<li><code>Override Existing Frame</code> - will overwrite file in destination if they exists</li>
+<li><code>Priority</code> is priority of job on farm</li>
+<li><code>Frames Per Task</code> is number of sequence division between individual tasks (chunks)
+making one job on farm.</li>
+<li><code>Frames List</code> you can submit a sequence as 1-100,300-400 for example.</li>
+</ul>
+<p>Now if you run publish, you notice there is in right column new item called
+<code>vspipe.renderlayer</code> and in it there is our new layer <code>Beauty (s001) [150-180]</code>. First part is
+layer name, second <code>(s001)</code> is asset name and rest is frame range.</p>
+<p><img alt="Maya - Render Publish errors" src="../assets/maya-render_publish_detail.gif" /></p>
+<p>You see I already tried to run publish but was stopped by few errors. Lets go
+through them one by one just to see what we need to set up further in scene for
+successful publish.</p>
+<p><strong>No Default Cameras Renderable</strong> is telling me:</p>
+<div class="highlight"><pre><span></span><code>Renderable default cameras found: [u&#39;|persp|perspShape&#39;]
+</code></pre></div>
+<p>and so can be resolved by simple change in <em>Main</em> layer render settings.
+All I have to do is just remove the <code>persp</code> camera from render settings and add there correct camera.</p>
+<p>This leaves me only with <strong>Render Settings</strong> error. If I click on it to see
+details, I see it has problem with animation not being enabled:</p>
+<div class="highlight"><pre><span></span><code>Animation needs to be enabled. Use the same frame for start and end to render single frame
+</code></pre></div>
+<p>Go to <strong>Render Settings</strong>, select your render layer and in <strong>Common</strong> tab change
+in <strong>File Output</strong> <code>Frame/Animation ext</code> to whatever you want, just not <em>Single Frame</em>.
+Set <strong>Frame Range</strong> <code>Start frame</code> and <code>End frame</code> according your needs.</p>
+<p>If you run into problems with <em>image file prefix</em> - this should be set correctly when
+creating <em>Render instance</em>, but you can tweak it. It needs to begin with <code>maya/&lt;Scene&gt;</code> token
+to avoid render conflicts between DCCs. It needs to have <code>&lt;RenderLayer&gt;</code> and
+<code>&lt;RenderPass&gt;</code>. If you have more then one renderable cameras, add <code>&lt;Camera&gt;</code> token.</p>
+<p>Sane default for arnold, redshift or renderman is:</p>
+<div class="highlight"><pre><span></span><code>maya/&lt;RenderLayer&gt;/&lt;RenderLayer&gt;_&lt;RenderPass&gt;
+</code></pre></div>
+<p>Doing <strong>VSPipe → Reset Resolution</strong> will set correct resolution on camera.</p>
+<p>Scene is now ready for submission and should publish without errors.</p>
+<div class="admonition tip what happens when i publish my render scene">
+<p class="admonition-title">Tip</p>
+<p>When publishing is finished, job is created on farm. This job has one more dependent job connected to itself.
+When render is finished, this other job triggers in and run publish again, but this time it is publishing rendered image sequence.</p>
+</div>
+                
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
+        
+          <a href="../artist_tools/" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+            </div>
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Tools
+              </div>
+            </div>
+          </a>
+        
+        
+          <a href="../artist_hosts_houdini/" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Houdini
+              </div>
+            </div>
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+          <div class="md-footer-copyright__highlight">
+            Copyright &copy; 2020 Desmond
+          </div>
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../assets/javascripts/vendor.6a3d08fc.min.js"></script>
+      <script src="../assets/javascripts/bundle.71201edf.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}</script>
+      
+      <script>
+        app = initialize({
+          base: "..",
+          features: [],
+          search: Object.assign({
+            worker: "../assets/javascripts/worker/search.4ac00218.min.js"
+          }, typeof search !== "undefined" && search)
+        })
+      </script>
+      
+    
+  </body>
+</html>
